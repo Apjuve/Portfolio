@@ -13,15 +13,15 @@
         <nav class="info">
             <ul>
                 <li>
-                    <a href="about-me">About Me</a>
+                    <a href="#about-me">About Me</a>
                 </li>
             
                 <li>
-                    <a href="my-work">My Work</a>
+                    <a href="#my-work">My Work</a>
                 </li>
           
                 <li>
-                    <a href="conntact-me">Contact Me</a>
+                    <a href="#contact-me">Contact Me</a>
                 </li>
            
         </nav>
@@ -34,26 +34,35 @@
             <br /> having experience with HTML and CSS. Building resposive Web application.</p>
         </div>
 
-        <div>
-            <h1>pic</h1>
+        <div class="photo">
             <img src="./assets/css/pictures/webdev.png" alt="">
         </div>
     </div>
     <section>
-        <div class="work">
+        <div class="work1">
+        <div id="my-work" class="work">
             <h2>My Work</h2>
+        <div class="row">
+            <div>
+            <img src="./assets/css/pictures/horiseon.png" alt="">
+            </div>
+            <div>
+            <img src="./assets/css/pictures/runbuddy.jpg" alt="">
+            </div>
         </div>
+        </div>
+    </div>
     </section>
     <div class="heading">
-    <h1>Contact</h1>
+    <h1 name="contact-me">Contact</h1>
     </div>
     <div class="information">
    
         <div class="content1">
-            <a class="social" href="github">github</a>
-            <a class="social1" href="email">email</a>
+            <a class="social" href="https://github.com/Apjuve">github</a>
+            <a class="social1" href="mailto:abiponce.ap@gmail.com">email</a>
         </div>
-        <div class="content2">
+        <div id="contact-me" class="content2">
             <form class="contact-form"> 
                 <label for="name"></label>
                 <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
